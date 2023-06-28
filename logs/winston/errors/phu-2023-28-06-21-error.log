@@ -1,0 +1,12 @@
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster0.rjdqp.mongodb.net',
+  level: 'error',
+  message: 'Filed to connect database queryTxt ETIMEOUT cluster0.rjdqp.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster0.rjdqp.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)',
+  label: 'ph',
+  timestamp: '2023-06-28T15:46:32.703Z'
+}
