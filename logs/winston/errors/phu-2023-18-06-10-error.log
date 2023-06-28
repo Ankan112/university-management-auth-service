@@ -1,0 +1,135 @@
+{
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster0-shard-00-02.rjdqp.mongodb.net:27017' => ServerDescription {
+        address: 'cluster0-shard-00-02.rjdqp.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 203653050,
+        lastWriteDate: 0,
+        error: MongoNetworkError: getaddrinfo ENOTFOUND cluster0-shard-00-02.rjdqp.mongodb.net
+            at connectionFailureError (D:\Next-Level\Mission-3-Project\university-management-auth-service\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (D:\Next-Level\Mission-3-Project\university-management-auth-service\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:628:26)
+            at TLSSocket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: getaddrinfo ENOTFOUND cluster0-shard-00-02.rjdqp.mongodb.net
+              at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+            errno: -3008,
+            code: 'ENOTFOUND',
+            syscall: 'getaddrinfo',
+            hostname: 'cluster0-shard-00-02.rjdqp.mongodb.net'
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster0-shard-00-01.rjdqp.mongodb.net:27017' => ServerDescription {
+        address: 'cluster0-shard-00-01.rjdqp.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 203653062,
+        lastWriteDate: 0,
+        error: MongoNetworkError: getaddrinfo ENOTFOUND cluster0-shard-00-01.rjdqp.mongodb.net
+            at connectionFailureError (D:\Next-Level\Mission-3-Project\university-management-auth-service\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (D:\Next-Level\Mission-3-Project\university-management-auth-service\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:628:26)
+            at TLSSocket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: getaddrinfo ENOTFOUND cluster0-shard-00-01.rjdqp.mongodb.net
+              at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+            errno: -3008,
+            code: 'ENOTFOUND',
+            syscall: 'getaddrinfo',
+            hostname: 'cluster0-shard-00-01.rjdqp.mongodb.net'
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster0-shard-00-00.rjdqp.mongodb.net:27017' => ServerDescription {
+        address: 'cluster0-shard-00-00.rjdqp.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 203653057,
+        lastWriteDate: 0,
+        error: MongoNetworkError: getaddrinfo ENOTFOUND cluster0-shard-00-00.rjdqp.mongodb.net
+            at connectionFailureError (D:\Next-Level\Mission-3-Project\university-management-auth-service\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (D:\Next-Level\Mission-3-Project\university-management-auth-service\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:628:26)
+            at TLSSocket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: getaddrinfo ENOTFOUND cluster0-shard-00-00.rjdqp.mongodb.net
+              at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+            errno: -3008,
+            code: 'ENOTFOUND',
+            syscall: 'getaddrinfo',
+            hostname: 'cluster0-shard-00-00.rjdqp.mongodb.net'
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-y7p22h-shard-0',
+    maxElectionId: new ObjectId("7fffffff00000000000000af"),
+    maxSetVersion: 10,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  label: 'ph',
+  timestamp: '2023-06-18T04:03:13.990Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

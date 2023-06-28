@@ -1,0 +1,51 @@
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1687060034, i: 31 }),
+    signature: {
+      hash: Binary.createFromBase64("VdjRYz0A3DQHHKgjj/q0qsG16rs=", 0),
+      keyId: new Long("7193426976432979970")
+    }
+  },
+  operationTime: new Timestamp({ t: 1687060034, i: 31 }),
+  level: 'error',
+  label: 'ph',
+  timestamp: '2023-06-18T03:49:44.062Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1687060428, i: 29 }),
+    signature: {
+      hash: Binary.createFromBase64("WKb6Enq4HTw9QGptjBLQwQbqKLk=", 0),
+      keyId: new Long("7193426976432979970")
+    }
+  },
+  operationTime: new Timestamp({ t: 1687060428, i: 29 }),
+  level: 'error',
+  label: 'ph',
+  timestamp: '2023-06-18T03:56:04.343Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1687060602, i: 8 }),
+    signature: {
+      hash: Binary.createFromBase64("ny0Pd6k+fdJn8czKFiGredbFS5o=", 0),
+      keyId: new Long("7193426976432979970")
+    }
+  },
+  operationTime: new Timestamp({ t: 1687060602, i: 8 }),
+  level: 'error',
+  label: 'ph',
+  timestamp: '2023-06-18T03:59:01.976Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
