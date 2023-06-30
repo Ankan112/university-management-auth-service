@@ -1,0 +1,29 @@
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.rjdqp.mongodb.net',
+  level: 'error',
+  message: 'Filed to connect database querySrv ETIMEOUT _mongodb._tcp.cluster0.rjdqp.mongodb.net',
+  stack: 'Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.rjdqp.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)',
+  label: 'ph',
+  timestamp: '2023-06-29T15:03:42.195Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  label: 'ph',
+  timestamp: '2023-06-29T15:05:10.436Z'
+}
+{ level: 'error', label: 'ph', timestamp: '2023-06-29T15:11:06.076Z' }
+{ level: 'error', label: 'ph', timestamp: '2023-06-29T15:11:22.795Z' }
+{ level: 'error', label: 'ph', timestamp: '2023-06-29T15:11:39.981Z' }
+{ level: 'error', label: 'ph', timestamp: '2023-06-29T15:14:40.485Z' }
+{ level: 'error', label: 'ph', timestamp: '2023-06-29T15:16:50.001Z' }
+{
+  statusCode: 400,
+  level: 'error',
+  label: 'ph',
+  timestamp: '2023-06-29T15:18:13.001Z'
+}

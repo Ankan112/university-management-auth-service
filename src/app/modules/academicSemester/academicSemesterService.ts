@@ -28,9 +28,6 @@ const getAllSemesters = async (
   filters: IAcademicSemesterFilters,
   paginationOptions: IPaginationOptions
 ): Promise<IGenericResponse<IAcademicSemester[]>> => {
-  // const { page = 1, limit = 10 } = paginationOptions;
-  // const skip = (page - 1) * limit;
-
   const { searchTerm } = filters;
 
   const andConditions = [];
@@ -45,31 +42,6 @@ const getAllSemesters = async (
       })),
     });
   }
-
-  // const andConditions = [
-  //   {
-  //     $or: [
-  //       {
-  //         title: {
-  //           $regex: searchTerm,
-  //           $option: '1',
-  //         },
-  //       },
-  //       {
-  //         code: {
-  //           $regex: searchTerm,
-  //           $option: '1',
-  //         },
-  //       },
-  //       {
-  //         year: {
-  //           $regex: searchTerm,
-  //           $option: '1',
-  //         },
-  //       },
-  //     ],
-  //   },
-  // ];
 
   const { page, limit, skip, sortBy, sortOrder } =
     paginationHelper.calculatePagination(paginationOptions);

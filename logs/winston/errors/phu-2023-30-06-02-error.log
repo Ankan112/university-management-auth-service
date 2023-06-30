@@ -1,0 +1,18 @@
+{
+  statusCode: 404,
+  level: 'error',
+  label: 'ph',
+  timestamp: '2023-06-29T20:15:10.282Z'
+}
+{
+  statusCode: 404,
+  level: 'error',
+  label: 'ph',
+  timestamp: '2023-06-29T20:16:29.974Z'
+}
+{
+  level: 'error',
+  label: 'ph',
+  timestamp: '2023-06-29T20:21:18.199Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
